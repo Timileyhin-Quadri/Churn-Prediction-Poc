@@ -1,2 +1,50 @@
-.venv
-./testing.py
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# ---- Virtual Environment ----
+venv/
+.env/
+.venv/
+ENV/
+env.bak/
+
+# ---- Jupyter Notebook ----
+.ipynb_checkpoints
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+
+# ---- Build / Packaging ----
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ---- Docker ----
+*.pid
+*.tar
+docker-compose.override.yml
+
+# ---- Coverage / Testing ----
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+.cache/
+
+# ---- Environment Variables ----
+*.env
+.env.*
+
+/.testing.py 
