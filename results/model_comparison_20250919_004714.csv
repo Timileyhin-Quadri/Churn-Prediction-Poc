@@ -1,0 +1,5 @@
+Model,Training_Time,Accuracy,Precision,Recall,F1_Score,ROC_AUC,Best_Params
+LogisticRegression,45.32060766220093,0.7951382772591157,0.46132404181184666,0.629277566539924,0.5323683152392441,0.7372135443428219,"{'classifier__C': 10.0, 'classifier__penalty': 'l2', 'classifier__solver': 'liblinear'}"
+DecisionTree,211.47731041908264,0.7970759203804827,0.46688741721854304,0.6701520912547528,0.550351288056206,0.7890024663446717,"{'criterion': 'entropy', 'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 10}"
+RandomForest,2327.144409418106,0.8550290646468205,0.6130306021717671,0.5903041825095057,0.6014527845036319,0.8441673003802281,"{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 300}"
+XGBoost,608.3120567798615,0.8567905583935177,0.6375143843498274,0.526615969581749,0.5767829255596044,0.8190574452779775,"{'colsample_bytree': 1.0, 'learning_rate': 0.2, 'max_depth': 7, 'n_estimators': 300, 'subsample': 0.8}"
