@@ -5,7 +5,7 @@ import json
 # ---------------------------
 # Configuration
 # ---------------------------
-API_URL = "http://127.0.0.1:8000"  # Change if API is deployed elsewhere
+API_URL = "http://churnpoc-api.westeurope.azurecontainer.io:8000"  # Change if API is deployed elsewhere
 
 # ---------------------------
 # UI Setup
